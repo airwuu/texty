@@ -39,10 +39,10 @@ function App() {
     <div className="bg-gray-900 text-white min-h-screen flex flex-col items-center justify-center p-4 sm:p-6 font-sans">
       <main className="w-full max-w-3xl flex flex-col items-center text-center">
         <h1 className="text-3xl sm:text-5xl font-bold mb-2">
-          Gemini <span className="text-cyan-400">➡️</span> Remotion
+          actaully huge text video
         </h1>
         <p className="text-md sm:text-lg text-gray-400 mb-8">
-          Enter a prompt describing a short animation, and let AI generate it for you.
+          Enter a prompt
         </p>
 
         <form onSubmit={handleSubmit} className="w-full flex flex-col gap-4">
@@ -79,7 +79,7 @@ function App() {
 
         {videoUrl && (
           <div className="w-full mt-8">
-            <h2 className="text-2xl font-semibold mb-4">Your Video is Ready!</h2>
+            <h2 className="text-2xl font-semibold mb-4">amazing creation:</h2>
             <video
               src={videoUrl}
               controls
