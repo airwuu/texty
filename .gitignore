@@ -1,6 +1,7 @@
 .env
 /backend/node_modules
 /backend/package-lock.json
+/backend/outputs
 # Logs
 logs
 *.log
